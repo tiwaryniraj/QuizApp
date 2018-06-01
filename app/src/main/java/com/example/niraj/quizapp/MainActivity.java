@@ -59,7 +59,11 @@ public class MainActivity extends AppCompatActivity {
         boolean answerFifth = ansFifth.isChecked();
 
         int score = calculate(secondAnswer1, secondAnswer3, secondAnswer2, secondAnswer4, fourAnswer, answerFifth, answerFirst, answerThird);
-        Toast.makeText(this, "Your Score is " + score + " Out of 5 :)", Toast.LENGTH_LONG).show(); //Created a toast to show the result
+        if(score == 5) {
+            Toast.makeText(this, "Awesome perfect Score, Congratulations!", Toast.LENGTH_LONG).show(); //Created a toast to show the result
+        }else {
+            Toast.makeText(this, "Your Score is " + score + " Out of 5 :)", Toast.LENGTH_LONG).show();
+        }
     }
 
     public int calculate(boolean secondAnswer1, boolean secondAnswer3, boolean secondAnswer2, boolean secondAnswer4, boolean fourAnswer, boolean answerFifth, boolean answerFirst, boolean answerThird) {

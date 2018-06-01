@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">QuizApp</string>
+    <string name="title">Big Bang Theory Quiz</string>
+    <string name="question1">Finish this game title: \'Rock, paper, scissors, lizard, ______\'</string>
+    <string name="qus1_op1">KIRK</string>
+    <string name="qus1_op2">PICARD</string>
+    <string name="qus1_op3_c">SPOCK</string>
+    <string name="qus1_op4">DATA</string>
+    <string name="question2">Among these who have a PhD?(Select All Who Have.)</string>
+    <string name="qus_2_op1">Raj</string>
+    <string name="qus_2_op2_c">Horward</string>
+    <string name="qus_2_op3">Leonard</string>
+    <string name="qus_2_op4">Sheldon</string>
+    <string name="question3">What does Sheldon do when he meets Stephen Hawking and Dr. Hawking points out a mathematical error of Sheldon\'s?</string>
+    <string name="qus_3_op1">HE TELLS DR. HAWKING THAT HE\'S WRONG</string>
+    <string name="qus_3_op2_c">HE FAINTS</string>
+    <string name="qus_3_op3">HE PUTS DR. HAWKING ON HIS MOTAL ENEMY LIST</string>
+    <string name="qus_3_op4">HE CRIES</string>
+    <string name="question4">How old was Sheldon Cooper when he earned a PhD?(In Years)</string>
+    <string name="question5">Where is Raj from in India?</string>
+    <string name="qus_5_op1">Mumbai</string>
+    <string name="qus_5_op2">Chennai</string>
+    <string name="qus_5_op3">Kolkata</string>
+    <string name="qus_5_op4_c">New Delhi</string>
+    <string name="submit">Submit</string>
+</resources>
